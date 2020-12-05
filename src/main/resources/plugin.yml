@@ -1,0 +1,16 @@
+name: VoidProtection
+version: ${project.version}
+main: com.soulcraftserver.voidprotection.Main
+api-version: 1.16
+
+commands:
+  setprotectionlevel:
+  settplocation:
+
+permissions:
+  voidprotection.*:
+    description: All permissions for voidprotection
+  voidprotection.setprotectionlevel:
+    description: Allows user to set the protection level
+  voidprotection.settplocation:
+    description: Allows user to set the location the player goes to when below the protection level
